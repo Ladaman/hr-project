@@ -1,0 +1,27 @@
+.wrapper {
+ display:flex;
+ flex-wrap: nowrap;
+ justify-content: space-around;
+ background-color: dimgray;
+
+}
+
+@media (max-width: 600px) {
+    .fb-feed {
+        display: none;
+    }
+}
+
+html, body{
+    background-color: dimgray;
+}
+
+.flip-cards{
+    text-align: center;
+}
+
+.fb-feed{
+
+}
+
+
